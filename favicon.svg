@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Emerald circle background -->
+  <circle cx="16" cy="16" r="16" fill="#0E3B2E"/>
+
+  <!-- Gold 8-pointed star (two overlapping squares rotated 45°) -->
+  <g transform="translate(16,16)" fill="#B08D45">
+    <!-- Main 4-point star body -->
+    <path d="M0,-9 L2.2,-2.2 L9,0 L2.2,2.2 L0,9 L-2.2,2.2 L-9,0 L-2.2,-2.2 Z"/>
+    <!-- Rotated 45° for 8-point effect -->
+    <path d="M0,-9 L2.2,-2.2 L9,0 L2.2,2.2 L0,9 L-2.2,2.2 L-9,0 L-2.2,-2.2 Z"
+          transform="rotate(45) scale(0.65)"/>
+  </g>
+
+  <!-- Thin gold ring to frame -->
+  <circle cx="16" cy="16" r="15"
+          fill="none" stroke="#B08D45" stroke-width="0.6" opacity="0.5"/>
+</svg>
